@@ -1,3 +1,5 @@
+## Invite Customers challenge
+
 In order to run, do
 
 ```
