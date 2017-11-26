@@ -1,0 +1,20 @@
+{
+  "name": "invite_customers",
+  "version": "1.0.0",
+  "description": "A program that reads the full list of customers and outputs the names and user ids customers within 100km from defined location, sorted by User ID (ascending)",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive \"src/**/*.spec.js\""
+  },
+  "author": "yuriy.kurylenko@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-spies": "^0.7.1",
+    "expect": "^21.2.1",
+    "geolib": "^2.0.24",
+    "mocha": "^4.0.1",
+    "mock-fs": "^4.4.2"
+  }
+}
